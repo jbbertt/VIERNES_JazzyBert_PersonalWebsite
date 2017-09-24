@@ -4,6 +4,41 @@ body, html {
     margin: 0;
 }
 
+
+
+.topnav {
+  
+  overflow: hidden;
+  background-color: #333;
+  width : 100%;
+  position: fixed;
+  
+}
+
+.topnav a {
+	
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: justify;
+  padding: 20px 25px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  
+  
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
 .hero-image {
   background-image: url("images/IMG_8675.jpg");
   height: 100%;
@@ -22,33 +57,9 @@ body, html {
   color: #4CAF50;
 }
 
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: justify;
-  padding: 20px 25px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topnav a.active {
-    background-color: #4CAF50;
-    color: white;
-}
 footer {
     padding: 5px;
-    color: white;
+    color: #4CAF50;
     background-color: black;
     clear: left;
     text-align: center;
