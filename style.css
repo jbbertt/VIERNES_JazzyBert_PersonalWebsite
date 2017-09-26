@@ -112,6 +112,12 @@ a.button:hover {
   color: #4CAF50;
 }
 
+.social_media a :hover{
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+
 footer {
     padding: 5px;
     color: #4CAF50;
