@@ -107,7 +107,7 @@ a.button:hover {
   text-align: center;
   position: absolute;
   top: 20%;
-  left: 45%;
+  left: 50%;
   transform: translate(-50%, -50%);
   color: #4CAF50;
 }
@@ -119,7 +119,7 @@ a.button:hover {
 
 
 footer {
-    padding: 5px;
+    padding: 10px;
     color: #4CAF50;
     background-color: black;
     clear: left;
