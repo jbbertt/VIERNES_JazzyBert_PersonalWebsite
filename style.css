@@ -110,7 +110,7 @@ a.button:hover {
 }
 .recent_work {
   background-color : white;
-  height: 150%;
+  height: 160%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -119,12 +119,34 @@ a.button:hover {
 .recent_work_text{
   text-align: center;
   position: absolute;
-  top: 10%;
+  top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: black;
 	
 }
+
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+ td {
+  
+	height : 300px;
+	width : 600px;
+    text-align: center;
+	
+}
+th{
+	height : 300px;
+	width : 600px;
+}
+
+
+
 
 footer {
     padding: 10px;
