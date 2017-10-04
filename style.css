@@ -110,7 +110,7 @@ a.button:hover {
 }
 .recent_work {
   background-color : white;
-  height: 120%;
+  height: 130%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -129,10 +129,7 @@ a.button:hover {
 table {
     width:100%;
 }
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
+
  td {
   
 	height : 300px;
